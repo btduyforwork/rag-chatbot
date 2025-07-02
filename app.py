@@ -10,7 +10,6 @@ from langchain.chains import ConversationalRetrievalChain
 from langchain.chat_models import ChatOpenAI
 from langchain_community.chat_models import ChatOllama
 from htmlTemplate import css,bot_template,user_template
-from streamlit_extras.bottom_container import bottom
 
 
 # State initialization:
@@ -118,7 +117,7 @@ def main():
                 
                 st.success("Tài liệu đã được xử lý thành công ✅")
 
-    
+     
             
 if  __name__ == "__main__":
     main()
